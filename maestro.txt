@@ -1,0 +1,171 @@
+# headlift
+begin
+  6400 headlift
+  4956 visor
+  4370 headtilt
+  8832 lowarm #back
+  6043 heroarm # center
+  6016 hand #middle
+  8000 elbow #down
+  5961 neck #center
+  500 delay
+
+  8000 headlift
+  5297 visor
+  3200 hand #out
+  500 delay
+
+  6400 headlift
+  4956 visor
+  500 delay
+
+  8000 headlift
+  4624 headtilt
+  8832 hand #in
+  5297 visor
+  500 delay
+
+  6400 headlift
+  3200 heroarm # front
+  4956 visor
+  7361 elbow
+  500 delay
+
+  8000 headlift
+  4624 headtilt
+  5297 visor
+  3200 hand #out
+  500 delay
+
+  6400 headlift
+  4956 visor
+  500 delay
+
+  8000 headlift
+  5297 visor
+  8832 hand #out
+  500 delay
+
+  6400 headlift
+  4370 headtilt
+  8000 elbow #down
+  4956 visor
+  3200 neck
+  500 delay
+
+  8000 headlift
+  5297 visor
+  3200 hand #out
+  500 delay
+
+  6400 headlift
+  4956 visor
+  500 delay
+
+  8000 headlift
+  6043 heroarm # center
+  8832 hand #out
+  5297 visor
+  500 delay
+
+  6400 headlift
+  4956 visor
+  6016 lowarm #middle
+  7361 elbow #up
+  500 delay
+
+  8000 headlift
+  5297 visor
+  3200 hand #out
+  500 delay
+
+  6400 headlift
+  4956 visor
+  500 delay
+
+  8000 headlift
+  5297 visor
+  8832 hand #out
+  500 delay
+
+  6400 headlift
+  4956 visor
+  8832 neck
+  8000 elbow #down
+  500 delay
+
+  8000 headlift
+  5297 visor
+  3200 hand #out
+  8832 heroarm #back
+  500 delay
+
+  6400 headlift
+  4956 visor
+  500 delay
+
+  8000 headlift
+  5297 visor
+  8832 hand #out
+  500 delay
+
+  6400 headlift
+  4956 visor
+  6016 hand #middle
+  500 delay
+
+  8000 headlift
+  5297 visor
+  500 delay
+
+  6400 headlift
+  4956 visor
+  3200 lowarm #front
+  500 delay
+
+  8000 headlift
+  5297 visor
+  500 delay
+
+  6400 headlift
+  4956 visor
+  7361 elbow #down
+  500 delay
+
+  8000 headlift
+  5297 visor
+  500 delay
+
+repeat
+
+sub headlift
+  1 servo
+  return
+
+sub visor
+  3 servo
+  return
+
+sub neck
+  0 servo
+  return
+
+sub headtilt
+  2 servo
+  return
+
+sub lowarm
+  6 servo
+  return
+
+sub heroarm
+  7 servo
+  return
+
+sub elbow
+  4 servo
+  return
+
+sub hand
+  5 servo
+  return
